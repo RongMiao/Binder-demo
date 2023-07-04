@@ -1,0 +1,85 @@
+cc_library {
+    name: "libaidl-demo",
+
+    srcs: [
+        "ICloudServiceProvider.cpp",
+        "IContact.cpp",
+        "IServer.cpp",
+    ],
+
+    local_include_dirs: [
+        "include",
+    ],
+
+    shared_libs: [
+        "libbinder",
+        "libutils",
+    ],
+    
+    include_dirs: [
+        "frameworks/native/libs/binder/include",
+        "system/core/libutils/include"
+    ],
+}
+
+
+
+// service
+cc_binary {
+    name: "aidldemo-service",
+
+    srcs: [
+        "CloudServiceProvider.cpp",
+        "Server.cpp",
+        "service.cpp",
+    ],
+
+    shared_libs: [
+        "libbinder",
+        "libutils",
+        "libaidl-demo",
+        "libstagefright_foundation",
+        "liblog",
+    ],
+    
+    local_include_dirs: [
+        "include",
+    ],
+
+    include_dirs: [
+        "frameworks/native/libs/binder/include",
+        "system/core/libutils/include",
+        "frameworks/av/media/libstagefright/foundation/include",
+        "system/logging/liblog/include",
+    ],
+}
+
+
+// client
+cc_binary {
+    name: "aidldemo-client",
+
+    srcs: [
+        "Student.cpp",
+        "client.cpp",
+    ],
+
+    shared_libs: [
+        "libbinder",
+        "libutils",
+        "libaidl-demo",
+        "libstagefright_foundation",
+        "liblog",
+    ],
+    
+    local_include_dirs: [
+        "include",
+    ],
+
+    include_dirs: [
+        "frameworks/native/libs/binder/include",
+        "system/core/libutils/include",
+        "frameworks/av/media/libstagefright/foundation/include",
+        "system/logging/liblog/include",
+    ],
+}

@@ -1,0 +1,111 @@
+06-17 19:16:12.493  5989  5989 V AIDL-DEMO-service: [vendor/realtek/apps/AidlDemo/service.cpp main 11]
+06-17 19:16:12.494  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 44 initiate]
+06-17 19:16:12.494  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 52 CloudServiceProvider]
+06-17 19:16:26.467  5994  5994 V AIDL-DEMO-client: [vendor/realtek/apps/AidlDemo/client.cpp 10 main]
+06-17 19:16:26.467  5994  5994 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 62 Student]
+06-17 19:16:26.468  5994  5994 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 74 getProducts]
+06-17 19:16:26.469  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 73 getProducts]
+06-17 19:16:26.469  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 139 Load]
+06-17 19:16:26.469  5994  5994 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[0]: A100000 --> 9999
+06-17 19:16:26.469  5994  5994 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[1]: GTX1080 --> 1999
+06-17 19:16:26.469  5994  5994 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[2]: RTX2080 --> 2999
+06-17 19:16:26.469  5994  5994 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[3]: RTX3080 --> 3999
+06-17 19:16:26.469  5994  5994 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[4]: RTX4080 --> 5999
+06-17 19:16:26.469  5994  5994 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[5]: TITAN00 --> 7999
+06-17 19:16:26.469  5994  5994 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 90 bargain]
+06-17 19:16:26.469  5994  5996 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 28 Contact]
+06-17 19:16:26.470  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 92 bargain] product = TITAN00, guidePrice = 999
+06-17 19:16:27.870  5994  5997 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 39 sendMessage]
+06-17 19:16:27.870  5994  5994 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 104 subscribe]
+06-17 19:16:27.870  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 106 subscribe] orderNo = 00000, account = zhang san, passwd = 12345678
+06-17 19:16:27.871  5989  5990 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp 16 Server]
+06-17 19:16:27.871  5994  5994 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 135 connect]
+06-17 19:16:27.871  5989  5989 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp 26 connect]
+06-17 19:16:27.871  5989  5989 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp 32 connect] connect OK
+06-17 19:16:27.871  5994  5994 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 148 doWork]
+06-17 19:16:27.871  5989  5989 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp 39 run] cmd : [train Fake-GPT 5.0] is processing...wait...
+06-17 19:16:30.872  5994  5994 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 153 doWork] work done, precision = 057%
+06-17 19:16:30.872  5994  5994 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 148 doWork]
+06-17 19:16:30.872  5989  5989 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp 39 run] cmd : [train Fake-GPT 5.0 again] is processing...wait...
+06-17 19:16:33.872  5994  5994 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 153 doWork] work done, precision = 093%
+06-17 19:16:33.872  5994  5994 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 122 unsubscribe]
+06-17 19:16:33.872  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 128 unsubscribe]
+06-17 19:16:33.873  5994  5994 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 69 ~Student]
+06-17 19:16:33.873  5994  5994 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 34 ~Contact]
+06-17 19:16:33.873  5989  5989 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp ~Server 21]
+
+
+
+以上是第一份log，可以看到Server是最后销毁的，为什么不是我们调用unsubscribe就销毁了呢？
+
+因为CLIENT持有server引用，虽然SERVER销毁了，CLIENT不销毁这个引用，server就会一直在，要等到CLIENT销毁，server才会销毁
+
+也就是说binder调用获取代理时，binder driver会自动帮我们增加binder实体的引用计数
+当一个进程的binder代理全部销毁，binder实体的引用计数会自动减1
+
+
+########################################################################################################################################
+
+
+
+06-17 19:23:14.814  6014  6014 V AIDL-DEMO-client: [vendor/realtek/apps/AidlDemo/client.cpp 10 main]
+06-17 19:23:14.815  6014  6014 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 62 Student]
+06-17 19:23:14.815  6014  6014 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 74 getProducts]
+06-17 19:23:14.816  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 73 getProducts]
+06-17 19:23:14.816  6014  6014 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[0]: A100000 --> 9999
+06-17 19:23:14.816  6014  6014 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[1]: GTX1080 --> 1999
+06-17 19:23:14.816  6014  6014 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[2]: RTX2080 --> 2999
+06-17 19:23:14.817  6014  6014 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[3]: RTX3080 --> 3999
+06-17 19:23:14.817  6014  6014 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[4]: RTX4080 --> 5999
+06-17 19:23:14.817  6014  6014 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 80 getProducts] products[5]: TITAN00 --> 7999
+06-17 19:23:14.817  6014  6014 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 90 bargain]
+06-17 19:23:14.817  6014  6016 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 28 Contact]
+06-17 19:23:14.817  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 92 bargain] product = TITAN00, guidePrice = 999
+06-17 19:23:16.218  6014  6017 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 39 sendMessage]
+06-17 19:23:16.218  6014  6014 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 104 subscribe]
+06-17 19:23:16.218  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 106 subscribe] orderNo = 00001, account = zhang san, passwd = 12345678
+06-17 19:23:16.218  5989  5990 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp 16 Server]
+06-17 19:23:16.219  6014  6014 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 136 connect]
+06-17 19:23:16.219  5989  5989 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp 26 connect]
+06-17 19:23:16.219  5989  5989 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp 32 connect] connect OK
+06-17 19:23:16.219  6014  6014 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 149 doWork]
+06-17 19:23:16.219  5989  5989 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp 39 run] cmd : [train Fake-GPT 5.0] is processing...wait...
+06-17 19:23:19.220  6014  6014 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 154 doWork] work done, precision = 092%
+06-17 19:23:19.220  6014  6014 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 149 doWork]
+06-17 19:23:19.220  5989  5989 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp 39 run] cmd : [train Fake-GPT 5.0 again] is processing...wait...
+06-17 19:23:22.220  6014  6014 D AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 154 doWork] work done, precision = 099%
+06-17 19:23:22.220  6014  6014 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 122 unsubscribe]
+06-17 19:23:22.220  5989  5989 V AIDL-DEMO-SERVER: [vendor/realtek/apps/AidlDemo/Server.cpp ~Server 21]
+06-17 19:23:22.220  5989  5989 V AIDL-DEMO-PROVID: [vendor/realtek/apps/AidlDemo/CloudServiceProvider.cpp 128 unsubscribe]
+06-17 19:23:22.221  6014  6014 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 69 ~Student]
+06-17 19:23:22.221  6014  6014 V AIDL-DEMO-CLIENT: [vendor/realtek/apps/AidlDemo/Student.cpp 34 ~Contact]
+
+
+
+以上是第二份log，和第一份不一样的是，调用unsubscribe后销毁CLIENT端的Server，这时候去销毁掉SERVER端的server，server会直接release
+
+status_t Student::unsubscribe()
+{
+    ALOGV("[%s %d %s]", __FILE__, __LINE__, __FUNCTION__);
+    sp<ICloudServiceProvider> cloudProvider = getService();
+    if(cloudProvider != NULL) {
+        mServer.clear();  // 添加了这一行
+        String8 orde(mOrderNo.c_str());
+        cloudProvider->unsubscribe(orde);
+    } else {
+        ALOGE("[%s %d %s] can not get cloudProvider", __FILE__, __LINE__, __FUNCTION__);
+    }
+    return NO_ERROR;
+}
+
+########################################################################################################################################
+
+
+
+
+
+
+
+
+
+

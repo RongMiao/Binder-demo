@@ -1,0 +1,7 @@
+1. 将代码clone到android源码中，编译
+
+2. 将生成的"libaidl-demo.so" "aidldemo-service" "aidldemo-client" push到/system/bin
+
+3. 执行 aidldemo-service
+
+4. 执行 aidldemo-client
